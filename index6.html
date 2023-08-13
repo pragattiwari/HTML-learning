@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <br>
+    <form action="/action.php"> <!--This is Form Element Tag used for making Registration Forms-->
+        <input type="text" placeholder="Username">
+        <br>
+        <input type="text" placeholder="Date of Birth"> <!--Placeholder is made to Fill the Boxes with Other words-->
+        <br>
+        <input type="text" placeholder="Password">
+        <br>
+        <input type="text" placeholder="Digital Signature">
+        <br>
+        <input type="text" placeholder="Date of Registration">
+        <br><br>
+
+        <label for="101"> <!--This is label Tag used for Whole Word Selection-->
+            <input type="radio" value="Class X" name="class" id="101"> CLASS X
+        </label>
+        <br><br>
+        <label for="102">
+            <input type="radio" value="Class XI" name="class" id="102"> CLASS XI
+        </label>
+        <br><br>
+        <label for="103">
+            <input type="radio" value="Class XII" name="class" id="103">CLASS XII
+        </label>
+        <br><br>
+
+        <h4>Student Subjects Selection</h4>
+
+        <label for="math">
+            <input type="Checkbox" Value="Mathematics" name="subject" id="101">Mathematics
+            <!--This is Checkbox Tag used to write Words in Boxes-->
+        </label>
+        <br>
+
+        <label for="Physics">
+            <input type="Checkbox" Value="Physics" name="subject" id="102">Physics
+        </label>
+        <br>
+
+        <label for="Chemistry">
+            <input type="Checkbox" Value="Chemistry" name="subject" id="103">Chemistry
+        </label>
+        <br>
+
+        <label for="Computer Science">
+            <input type="Checkbox" Value="Computer Science" name="subject" id="103">Computer Science
+        </label>
+
+        <br><br>
+
+        <h3>Select Your City</h3>
+        <select name="city"> <!--This is Select Tag for Cities Option-->
+            <option value="Delhi">Delhi</option>
+            <option Value="Mumbai">Mumbai</option>
+            <option value="Bangalore"> Bangalore</option>
+            <option value="Pune">Pune</option>
+        </select>
+        <br>
+        <!--Now we are using Text area Tag for Making Feedback Box-->
+        <br>
+
+        <textarea name="Feedback" id="101" placeholder="Kindly Give Your Valuable Suggestions Here"
+            rows="5">Feedback</textarea>
+        <br><br>
+        <textarea name="Suggestions" id="102" placeholder="Valuable Suggestions Here" rows="5">Suggestions</textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+
+        </forms>
+</body>
+
+</html>
