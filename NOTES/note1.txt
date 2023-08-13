@@ -1,0 +1,34 @@
+Types of CSS
+
+1. Inline CSS
+
+    <tag> ke attribute (style) section me property with value set karte hai
+
+        attribute examples : href, src, alt, lang, style
+
+    EXAMPLE 1:
+    The following example sets the background color of the <body> element to yellowgreen :
+        <body style="background-color: yellowgreen;">
+
+        where:
+            body = tag  
+            style = attribute
+            background-color = property of CSS
+            yellowgreen = value of "background-color" property
+
+    EXAMPLE 2:
+    The following example sets the font size of the <h1> element to 100px :
+        <h1 style="font-size: 100px;">Hello Pragat</h1>
+
+        where:
+            h1 = tag  
+            style = attribute
+            font-size = property of CSS
+            100px = value of "font-size" property
+
+    Inline CSS can be applied anywhere inside any tag with "style" attribute.
+    Syntax : 
+        <tag attribute="property:value">
+
+2. Internal CSS
+3. External CSS

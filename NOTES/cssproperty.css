@@ -1,0 +1,10 @@
+.preeti {
+    background-color: aliceblue;
+    color: aqua;
+    font-size: 100px;
+    text-align: center;
+}
+
+.preeti:hover{
+    color: red;
+}
